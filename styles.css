@@ -63,3 +63,24 @@ body {
     width: 600px;
     background-color: hsl(228, 56%, 26%);
 }
+
+.postion {
+    position: relative;
+}
+
+.value {
+    position: absolute;
+    right: 260px;
+    font-weight: bold;
+    font-size: 3em;
+    background-color: white;
+    color:  hsl(228, 56%, 26%);
+    width: 190px;
+    text-align: center;
+    z-index: 8;
+}
+
+.small-letters {
+    font-size: .3em;
+    color: gray;
+}
