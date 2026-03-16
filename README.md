@@ -32,11 +32,11 @@ Users should be able to:
 
 #### Mobile Sreenshot
 <p align="center">
-  <img src="./images/screenshot.jpg" width="300">
+  <img src="./images/screenshot.png" width="300">
 </p>
 
 #### Desktop Sreenshot
-![](./images/screenshot2.jpg)
+![](./images/screenshot2.png)
 
 
 ### Links
