@@ -92,7 +92,7 @@ Don't go to bootstrap.com
 
 I did the vast majority of this by myself. I didn't add the little triangle part on the "185 GB LEFT" bubble because I didn't what to risk giving ChatGPT credit for my hard work.
 
-AI was helpful in letting me know I was wasting my time trying to use Bootstrap. 
+AI was helpful in letting me know I was wasting my time trying to use Bootstrap.  I also ended up using it to help me understand why my flex-wrapping divs had such a big gap.
 
 ## Reflection
 - Challenges you encountered during the project.

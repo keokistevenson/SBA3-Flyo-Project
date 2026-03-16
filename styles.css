@@ -5,9 +5,11 @@
     box-sizing: border-box;
 
 }
+
 main {
-     min-height: 100vh;
+    min-height: 100vh;
 }
+
 .progress {
     background: conic-gradient(hsl(229, 57%, 11%), hsl(229, 7%, 55%));
 
@@ -30,7 +32,7 @@ main {
 
 
 body {
-   font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 
     background-color: hsl(229, 57%, 11%);
     background-image: url("images/bg-desktop.png");
@@ -51,7 +53,7 @@ body {
 
 
 .card-body div {
-    
+
     height: 4em;
     width: 4em;
 
@@ -74,7 +76,7 @@ body {
     font-weight: bold;
     font-size: 3em;
     background-color: white;
-    color:  hsl(228, 56%, 26%);
+    color: hsl(228, 56%, 26%);
     width: 190px;
     text-align: center;
     z-index: 8;
@@ -83,4 +85,37 @@ body {
 .small-letters {
     font-size: .3em;
     color: gray;
+}
+
+
+@media (max-width: 480px) {
+
+    main {
+        min-height: 100vh;
+        align-content: center;
+    }
+
+    body {
+
+        background-image: url("images/bg-mobile.png");
+        background-position: center;
+    }
+
+    #control {
+        width: 280px;
+        background-color: hsl(228, 56%, 26%);
+        margin-left: 0em;
+    }
+
+    #storage {
+        width: 280px;
+        margin: 0;
+    }
+
+    .value {
+        position: absolute;
+        top: 650px;
+        right: 65px;
+    }
+
 }
